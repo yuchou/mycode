@@ -1,0 +1,5 @@
+<?php
+$array1=array('extension'=>array('php','txt'));
+$array1 = parse_ini_file('shelldetect.ini');
+print_r ($array1);
+?>
